@@ -1,5 +1,5 @@
-##INSPIRE helpdesk 
-This space is used for discussions and announcements on general INSPIRE topics. Before reporting a problem or asking a question here, please make sure that the problem or question is not relevant to (only) a specific INSPIRE component. If this is the case, please use the dedicated helpdesks for the ([Validator](https://github.com/INSPIRE-MIF/helpdesk-validator "Validator"), [Geroportal](https://github.com/INSPIRE-MIF/helpdesk-geoportal "Geoportal"), [Registry](https://github.com/INSPIRE-MIF/helpdesk-registry "Registry")).
+## INSPIRE helpdesk 
+This space is used for discussions and announcements on general INSPIRE topics. Before reporting a problem or asking a question here, please make sure that the problem or question is not relevant to (only) a specific INSPIRE component. If this is the case, please use the dedicated helpdesks for the ([Validator](https://github.com/INSPIRE-MIF/helpdesk-validator "Validator"), [Geoportal](https://github.com/INSPIRE-MIF/helpdesk-geoportal "Geoportal"), [Registry](https://github.com/INSPIRE-MIF/helpdesk-registry "Registry")).
 
 Use the issue tracker (helpdesk) to:
 
