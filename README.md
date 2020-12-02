@@ -6,4 +6,4 @@ Use the issue tracker (helpdesk) to:
 - [report a generic problem](https://github.com/INSPIRE-MIF/helpdesk/issues/new?assignees=&labels=&template=report-a-problem-or-bug.md&title= "report a generic problem") related to INSPIRE, 
 - [start a discussion or raise a question](https://github.com/INSPIRE-MIF/helpdesk/issues/new?assignees=&labels=&template=start-a-discussion.md&title= "start a discussion or raise a question") related to a generic INSPIRE matter.
 
-The status of the solutions to all the issues currently open in the helpdesk can be checked on the [project board](https://github.com/INSPIRE-MIF/helpdesk/issues "project board").
+The status of the solutions to all the issues currently open in the helpdesk can be checked on the [issues page](https://github.com/INSPIRE-MIF/helpdesk/issues "issues page").
