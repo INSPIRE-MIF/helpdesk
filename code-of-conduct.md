@@ -30,6 +30,7 @@ Examples of unacceptable behavior by participants include:
 * Other conduct which could reasonably be considered inappropriate in a professional setting
 * Explicit advertising of products or services or posting/endorsing/promoting for own personal gain
 * Posting your or other people's personal contact information (i.e. telephone numbers, addresses etc)
+* Non-compliance with the established governance processes for the INSPIRE artefacts, Good Practices, components and helpdesks.
 * Anything else deemed inappropriate by us.
 
 ## Responsibilities
@@ -45,7 +46,7 @@ The INSPIRE team reserves the right to delete any postings who do not adhere to 
 ## Attribution
 
 This Code of Conduct is adapted from:
-* the [http://contributor-covenant.org](Contributor Covenant, version 1.4), and
+* the [Contributor Covenant, version 1.4](http://contributor-covenant.org), and
 * the [Terms of Reference of the INSPIRE Knowledge Base](https://inspire.ec.europa.eu/terms-use/59606).
 
 If you have suggestions to improve this Code of conduct, please submit an issue or pull request.
