@@ -2,7 +2,7 @@
 
 The table below gives an overview of the coordinate reference systems approved for use in INSPIRE. It contains the HTTP URI identifier for the CRS, a short description and the basis for its inclusion into the table. This table is a temporary solution for the need of one single updated and authoritative overview of approved CRSs in INSPIRE, pending the register of CRSs that will be established when [Commission Regulation (EU) No 1089/2010](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:02010R1089-20141231) is amended, see also the [documents for the 16th meeting of the INSPIRE Committee](https://ec.europa.eu/transparency/comitology-register/screen/meetings/CMTD%282021%291538/consult?lang=en).
 
-More information about those CRSs that are part of the EPSG Geodetic Parameter Dataset, such as their names and aliases, can be found in the [EPSG registry](https://epsg.org).
+More information about those CRSs that are part of the EPSG Geodetic Parameter Dataset can be found in the [EPSG registry](https://epsg.org).
 
 | HTTP URI identifier | Short name[^short_name] | Description[^description] | Basis for inclusion[^sources] |
 |---|---|---|---|
@@ -30,7 +30,7 @@ More information about those CRSs that are part of the EPSG Geodetic Parameter D
 | http://www.opengis.net/def/crs/EPSG/0/5715 | MSL | Depth referred to MSL (D) | [TG RS] TG Requirement 1 and Table 1 |
 | http://codes.wmo.int/grib2/codeflag/4.2/_0-3-3 | ISA | Pressure coordinate in the free atmosphere (ICAO international standard atmosphere) (P) | [TG RS] TG Requirement 1 and Table 1, [TG Metadata][TG Metadata] Annex D[^isa_uri] |
 | http://www.opengis.net/def/crs/EPSG/0/7409 | ETRS89-GRS80-EVRS | 3D compound: 2D geodetic in ETRS89 on GRS80, and EVRF2000 height (Latitude, Longitude, H) | [TG RS] TG Requirement 1 and Table 1 |
-| http://www.opengis.net/def/crs/EPSG/0/5013 | PTRA08 | PTRA08 (Azores and Madeira) | [helpdesk-validator#307](https://github.com/INSPIRE-MIF/helpdesk-validator/issues/307) |
+| http://www.opengis.net/def/crs/EPSG/0/5013 | PTRA08 | | [helpdesk-validator#307](https://github.com/INSPIRE-MIF/helpdesk-validator/issues/307) |
 | http://www.opengis.net/def/crs/EPSG/0/5014 | PTRA08 / UTM zone 25N | | [helpdesk-validator#307](https://github.com/INSPIRE-MIF/helpdesk-validator/issues/307) |
 | http://www.opengis.net/def/crs/EPSG/0/5015 | PTRA08 / UTM zone 26N | | [helpdesk-validator#307](https://github.com/INSPIRE-MIF/helpdesk-validator/issues/307) |
 | http://www.opengis.net/def/crs/EPSG/0/5621 | EVRF2007 height |  | [technical-guidelines#27](https://github.com/INSPIRE-MIF/technical-guidelines/issues/27) |
