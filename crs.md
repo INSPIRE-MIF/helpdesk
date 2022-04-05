@@ -34,8 +34,8 @@ More information about those CRSs that are part of the EPSG Geodetic Parameter D
 | http://www.opengis.net/def/crs/EPSG/0/5014 | PTRA08 / UTM zone 25N | | [helpdesk-validator#307](https://github.com/INSPIRE-MIF/helpdesk-validator/issues/307) |
 | http://www.opengis.net/def/crs/EPSG/0/5015 | PTRA08 / UTM zone 26N | | [helpdesk-validator#307](https://github.com/INSPIRE-MIF/helpdesk-validator/issues/307) |
 | http://www.opengis.net/def/crs/EPSG/0/5621 | EVRF2007 height |  | [technical-guidelines#27](https://github.com/INSPIRE-MIF/technical-guidelines/issues/27) |
-| http://www.opengis.net/def/crs/EPSG/0/5621 | EVRF2019 height |  | [technical-guidelines#27](https://github.com/INSPIRE-MIF/technical-guidelines/issues/27) |
-| http://www.opengis.net/def/crs/EPSG/0/5621 | EVRF2019 mean-tide height |  | [technical-guidelines#27](https://github.com/INSPIRE-MIF/technical-guidelines/issues/27) |
+| http://www.opengis.net/def/crs/EPSG/0/9389 | EVRF2019 height |  | [technical-guidelines#27](https://github.com/INSPIRE-MIF/technical-guidelines/issues/27) |
+| http://www.opengis.net/def/crs/EPSG/0/9390 | EVRF2019 mean-tide height |  | [technical-guidelines#27](https://github.com/INSPIRE-MIF/technical-guidelines/issues/27) |
 
 <!-- footnotes, see also https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#footnotes -->
 [^short_name]: The short name from [TG RS] Table 1 if the CRS is present there (unless indicated otherwise) or the name as registered in the [EPSG registry](https://epsg.org).
