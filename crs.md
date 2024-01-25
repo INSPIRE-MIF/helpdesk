@@ -4,7 +4,7 @@ The table below gives an overview of the coordinate reference systems approved f
 
 More information about those CRSs that are part of the EPSG Geodetic Parameter Dataset can be found in the [EPSG registry](https://epsg.org).
 
-| HTTP URI identifier | Short name[^short_name] | Description[^description] | Basis for inclusion[^sources] |
+| HTTP URI identifier | INSPIRE Short name[^short_name] | Description[^description] | Basis for inclusion[^sources] |
 |---|---|---|---|
 | http://www.opengis.net/def/crs/EPSG/0/4936| ETRS89-XYZ | 3D Cartesian in ETRS89 (X,Y,Z) | [TG RS] TG Requirement 1 and Table 1 |
 | http://www.opengis.net/def/crs/EPSG/0/4937 | ETRS89-GRS80h | 3D geodetic in ETRS89 on GRS80 (Latitude, Longitude, Ellipsoidal height) | [TG RS] TG Requirement 1 and Table 1 |
@@ -30,12 +30,23 @@ More information about those CRSs that are part of the EPSG Geodetic Parameter D
 | http://www.opengis.net/def/crs/EPSG/0/5715 | MSL | Depth referred to MSL (D) | [TG RS] TG Requirement 1 and Table 1 |
 | http://codes.wmo.int/grib2/codeflag/4.2/_0-3-3 | ISA | Pressure coordinate in the free atmosphere (ICAO international standard atmosphere) (P) | [TG RS] TG Requirement 1 and Table 1, [TG Metadata][TG Metadata] Annex D[^isa_uri] |
 | http://www.opengis.net/def/crs/EPSG/0/7409 | ETRS89-GRS80-EVRS | 3D compound: 2D geodetic in ETRS89 on GRS80, and EVRF2000 height (Latitude, Longitude, H) | [TG RS] TG Requirement 1 and Table 1 |
-| http://www.opengis.net/def/crs/EPSG/0/5013 | PTRA08 | | [helpdesk-validator#307](https://github.com/INSPIRE-MIF/helpdesk-validator/issues/307) |
-| http://www.opengis.net/def/crs/EPSG/0/5014 | PTRA08 / UTM zone 25N | | [helpdesk-validator#307](https://github.com/INSPIRE-MIF/helpdesk-validator/issues/307) |
-| http://www.opengis.net/def/crs/EPSG/0/5015 | PTRA08 / UTM zone 26N | | [helpdesk-validator#307](https://github.com/INSPIRE-MIF/helpdesk-validator/issues/307) |
-| http://www.opengis.net/def/crs/EPSG/0/5621 | EVRF2007 height |  | [technical-guidelines#27](https://github.com/INSPIRE-MIF/technical-guidelines/issues/27) |
-| http://www.opengis.net/def/crs/EPSG/0/9389 | EVRF2019 height |  | [technical-guidelines#27](https://github.com/INSPIRE-MIF/technical-guidelines/issues/27) |
-| http://www.opengis.net/def/crs/EPSG/0/9390 | EVRF2019 mean-tide height |  | [technical-guidelines#27](https://github.com/INSPIRE-MIF/technical-guidelines/issues/27) |
+| http://www.opengis.net/def/crs/EPSG/0/5013 | PTRA08-GRS80 | 2D geodetic in PTRA08 on GRS80 (Latitude, Longitude). Portugal - Azores and Madeira[^76_mig_t] | [helpdesk-validator#307](https://github.com/INSPIRE-MIF/helpdesk-validator/issues/307) |
+| http://www.opengis.net/def/crs/EPSG/0/5014 | PTRA08-UTM25N | 2D UTM projection in PTRA08 on GRS80, zone 25N (west of 30°W) (E, N). Portugal - western Azores, Flores and Corvo islands, and surrounding EEZ[^76_mig_t] | [helpdesk-validator#307](https://github.com/INSPIRE-MIF/helpdesk-validator/issues/307) |
+| http://www.opengis.net/def/crs/EPSG/0/5015 | PTRA08-UTM26N | 2D UTM projection in PTRA08 on GRS80, zone 26N (30°W to 24°W) (E, N). Portugal - Central and eastern Azores - Graciosa, Terceira, Sao Jorge, Pico, Faial, Sao Miguel and Santa Maria islands and surrounding EEZ[^76_mig_t] | [helpdesk-validator#307](https://github.com/INSPIRE-MIF/helpdesk-validator/issues/307) |
+| http://www.opengis.net/def/crs/EPSG/0/5621 | EVRS-EVRF2007 | Height in EVRS (EVRF2007) (H) | [technical-guidelines#27](https://github.com/INSPIRE-MIF/technical-guidelines/issues/27) |
+| http://www.opengis.net/def/crs/EPSG/0/9389 | EVRS-EVRF2019 | Height in EVRS (EVRF2019) (H) | [technical-guidelines#27](https://github.com/INSPIRE-MIF/technical-guidelines/issues/27) |
+| http://www.opengis.net/def/crs/EPSG/0/9390 | EVRS-EVRF2019mean | Mean-tide height in EVRS (EVRF2019) (H) | [technical-guidelines#27](https://github.com/INSPIRE-MIF/technical-guidelines/issues/27) |
+
+| http://www.opengis.net/def/crs/EPSG/0/3765 | HTRS96-TM | 2D TM projection in HTRS96 on GRS80 (E, N). Croatia – onshore[^76_mig_t] | [helpdesk-registry#76](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/76) |
+| http://www.opengis.net/def/crs/EPSG/0/4080 | REGCAN95-GRS80h | 3D geodetic in REGCAN95 on GRS80 (Latitude, Longitude, Ellipsoidal height). Spain - Canary Islands[^76_mig_t] | [helpdesk-registry#77](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/77) |
+| http://www.opengis.net/def/crs/EPSG/0/4081 | REGCAN95-GRS80 | 2D geodetic in REGCAN95 on GRS80 (Latitude, Longitude). Spain - Canary Islands[^76_mig_t] | [helpdesk-registry#77](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/77) |
+| http://www.opengis.net/def/crs/EPSG/0/4082 | REGCAN95-UTM27N | 2D UTM projection in REGCAN95 on GRS80, zone 27N (west of 18°W) (E, N). Spain - Canary Islands, onshore and offshore[^76_mig_t] | [helpdesk-registry#77](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/77) |
+| http://www.opengis.net/def/crs/EPSG/0/4083 | REGCAN95-UTM28N | 2D UTM projection in REGCAN95 on GRS80, zone 28N (east of 18°W) (E, N). Spain - Canary Islands, onshore and offshore[^76_mig_t] | [helpdesk-registry#77](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/77) |
+| https://www.opengis.net/def/crs/EPSG/0/7423 | ETRS89-GRS80-EVRF2007h | 3D compound: 2D geodetic in ETRS89 on GRS80, and EVRF2007 height (Latitude, Longitude, H)[^76_mig_t] | [helpdesk-registry#78](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/78) |
+| https://www.opengis.net/def/crs/EPSG/0/3006 | SWEREF99-TM | 2D TM projection in SWEREF99 on GRS80 (N, E). Sweden - onshore and offshore[^76_mig_t] | [helpdesk-registry#79](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/79) |
+| https://www.opengis.net/def/crs/EPSG/0/25832 | ETRS89-UTM32N | 2D UTM projection in ETRS89 on GRS80, zone 32N (6°E to 12°E) (E, N)[^76_mig_t] | [helpdesk-registry#80](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/80) |
+| https://www.opengis.net/def/crs/EPSG/0/25833 | ETRS89-UTM33N | 2D UTM projection in ETRS89 on GRS80, zone 33N (12°E to 18°E) (E, N)[^76_mig_t] | [helpdesk-registry#80](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/80) |
+| https://www.opengis.net/def/crs/EPSG/0/3812 | ETRS89-Lambert2008 | 2D Lambert projection in ETRS89 on GRS80 (Y, X). Belgium - onshore[^76_mig_t] | [helpdesk-registry#81](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/81) |
 
 <!-- footnotes, see also https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#footnotes -->
 [^short_name]: The short name from [TG RS] Table 1 if the CRS is present there (unless indicated otherwise) or the name as registered in the [EPSG registry](https://epsg.org).
@@ -44,6 +55,7 @@ More information about those CRSs that are part of the EPSG Geodetic Parameter D
 on report [Map Projections for Europe][EUR 20120 EN], publication [M-3, Resolutions of the IHO][IHO M-3] and standards describing the International Standard Atmosphere (ISA). The [INSPIRE Data Specification on Coordinate Reference Systems][TG RS] specifies what coordinate reference system identifiers shall be used (the HTTP URIs provided by the Open Geospatial Consortium (OGC), where relevant). More CRSs were approved after the publication of the [TG RS], in those cases a link to the relevant GitHub issue or meeting minutes is included.
 [^evrs]: The table in the [TG RS] contains only ”EVRS”. However, according to the [EPSG registry](https://epsg.org) this CRS is ”EVRF2000 height”.
 [^isa_uri]: The ICAO ISA HTTP identifier is not listed in table 1 in the [TG on coordinate reference systems, v3.2][TG RS], but is present in the [TG metadata, v2.1.0][TG metadata] (and was also present in v2.0.1).
+[^76_mig_t]: CRS endorsed in the [76 MIG-T Meeting](https://wikis.ec.europa.eu/display/InspireMIG/76th+MIG-T+meeting+2023-11-30) - [TG RS] to be updated:-not yet included in Table 1 of the specification.
 
 <!-- Second parts of the reference-style links, see also https://www.markdownguide.org/basic-syntax/#reference-style-links  -->
 [EUR 20120 EN]: http://www.mapref.org/LinkedDocuments/MapProjectionsForEurope-EUR-20120.pdf "ANNONI, A, LUZET, C, GUBLER, E and IHDE, J, eds. Map Projections for Europe. Institute for Environment and Sustainability, 2001. EUR 20120 EN."
