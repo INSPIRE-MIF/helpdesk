@@ -36,7 +36,6 @@ More information about those CRSs that are part of the EPSG Geodetic Parameter D
 | http://www.opengis.net/def/crs/EPSG/0/5621 | EVRS-EVRF2007 | Height in EVRS (EVRF2007) (H) | [technical-guidelines#27](https://github.com/INSPIRE-MIF/technical-guidelines/issues/27) |
 | http://www.opengis.net/def/crs/EPSG/0/9389 | EVRS-EVRF2019 | Height in EVRS (EVRF2019) (H) | [technical-guidelines#27](https://github.com/INSPIRE-MIF/technical-guidelines/issues/27) |
 | http://www.opengis.net/def/crs/EPSG/0/9390 | EVRS-EVRF2019mean | Mean-tide height in EVRS (EVRF2019) (H) | [technical-guidelines#27](https://github.com/INSPIRE-MIF/technical-guidelines/issues/27) |
-
 | http://www.opengis.net/def/crs/EPSG/0/3765 | HTRS96-TM | 2D TM projection in HTRS96 on GRS80 (E, N). Croatia – onshore[^76_mig_t] | [helpdesk-registry#76](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/76) |
 | http://www.opengis.net/def/crs/EPSG/0/4080 | REGCAN95-GRS80h | 3D geodetic in REGCAN95 on GRS80 (Latitude, Longitude, Ellipsoidal height). Spain - Canary Islands[^76_mig_t] | [helpdesk-registry#77](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/77) |
 | http://www.opengis.net/def/crs/EPSG/0/4081 | REGCAN95-GRS80 | 2D geodetic in REGCAN95 on GRS80 (Latitude, Longitude). Spain - Canary Islands[^76_mig_t] | [helpdesk-registry#77](https://github.com/INSPIRE-MIF/helpdesk-registry/issues/77) |
