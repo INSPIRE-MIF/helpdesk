@@ -25,7 +25,7 @@ More information about those CRSs that are part of the EPSG Geodetic Parameter D
 | http://www.opengis.net/def/crs/EPSG/0/3049 | ETRS89-TM37N  | 2D TM projection in ETRS89 on GRS80, zone 37N (36°E to 42°E) (N,E) | [TG RS] TG Requirement 1 and Table 1 |
 | http://www.opengis.net/def/crs/EPSG/0/3050 | ETRS89-TM38N  | 2D TM projection in ETRS89 on GRS80, zone 38N (42°E to 48°E) (N,E) | [TG RS] TG Requirement 1 and Table 1 |
 | http://www.opengis.net/def/crs/EPSG/0/3051 | ETRS89-TM39N  | 2D TM projection in ETRS89 on GRS80, zone 39N (48°E to 54°E) (N,E) | [TG RS] TG Requirement 1 and Table 1 |
-| http://www.opengis.net/def/crs/EPSG/0/5730 | EVRF2000 height[^evrs] | EVRF2000 height (H)[^evrs] | [TG RS] TG Requirement 1 and Table 1 |
+| http://www.opengis.net/def/crs/EPSG/0/5730 | EVRS-EVRF2000[^evrs] | Height in EVRS (EVRF2000) (H)[^evrs] | [TG RS] TG Requirement 1 and Table 1 |
 | http://www.opengis.net/def/crs/EPSG/0/5861 | LAT | Depth referred to LAT (D) | [TG RS] TG Requirement 1 and Table 1 |
 | http://www.opengis.net/def/crs/EPSG/0/5715 | MSL | Depth referred to MSL (D) | [TG RS] TG Requirement 1 and Table 1 |
 | http://codes.wmo.int/grib2/codeflag/4.2/_0-3-3 | ISA | Pressure coordinate in the free atmosphere (ICAO international standard atmosphere) (P) | [TG RS] TG Requirement 1 and Table 1, [TG Metadata][TG Metadata] Annex D[^isa_uri] |
